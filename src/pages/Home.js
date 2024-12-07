@@ -51,7 +51,7 @@ const Home = ({ data }) => {
     return (
         <div className='w-full md:w-2/3 px-4'>
             {list}
-            <button type='button' className='bg-blue-600 mt-2 w-1/3 text-xl py-2 px-4 text-white rounded-sm' onClick={() => setShow(true)}>Результат</button>
+            <button type='button' className='bg-blue-600 m-2 w-1/3 text-xl py-2 px-4 text-white rounded-sm' onClick={() => setShow(true)}>Результат</button>
         </div>
     )
 }
